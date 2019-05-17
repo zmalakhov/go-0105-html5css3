@@ -1,0 +1,26 @@
+.content{
+    display: flex;
+
+}
+ 
+.item {
+/*    flex-grow: 1;*/
+    flex-shrink: 1;
+    width: 150px;
+    height: 50px;
+    border: 1px solid #000
+}
+
+.item-2{
+/*    flex-grow: 2;*/
+    flex-shrink: 2;
+}
+
+.item-3{
+/*    flex-grow: 3;*/
+}
+
+
+
+
+
