@@ -1,0 +1,42 @@
+.container {
+    width: 1280px;
+    margin: 0 auto;
+}
+
+.product{
+    height: 323px;
+    background-color: #445162;
+}
+
+.about{
+    height: 345px;
+    background-color: #fff;
+}
+
+.dignity{
+    height: 420px;
+    background-color: #f5f5f5;
+}
+
+.scrinshots{
+    height: 487px;
+    background-color: #fff;
+}
+
+
+.reviews{
+    height: 420px;
+    background-color: #f5f5f5;
+}
+
+.buy{
+    height: 656px;
+    background-color: #fff;
+}
+
+.contacts{
+    height: 510px;
+    background-color: #445162;
+}
+
+
