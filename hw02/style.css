@@ -226,9 +226,62 @@
 
 
 .reviews{
-    height: 420px;
+/*    height: 420px;*/
     background-color: #f5f5f5;
+    padding: 50px;
 }
+.reviews .title {
+    display: flex;
+    justify-content: center;
+    color: #445161;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 36px;
+}
+.reviews .content{
+    margin-top: 15px;
+    display: flex;
+}
+.reviews .content .row{
+    display: flex;
+    margin-top: 20px
+}
+.reviews .content .img{
+    min-width: 75px;
+    height: 75px;
+    border-radius: 50%;
+    background-color: #445161;    
+}
+.reviews .content .txt{
+    margin-left: 30px;
+    margin-right: 20px;
+    background-color: #ebebeb;
+}
+.reviews .content .txt .h{
+    color: #333333;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18px;
+}
+.reviews .content .txt .b{
+    margin-top: 15px;
+    color: #989898;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
 
 .buy{
     height: 656px;
