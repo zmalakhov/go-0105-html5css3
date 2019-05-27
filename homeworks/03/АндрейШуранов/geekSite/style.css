@@ -1,0 +1,438 @@
+@font-face { font-family: 'ArialMT';  src: local('ArialMT'), url('https://nomail.com.ua/files/woff/a27c5975a1a88dcd17c7c606902044d9.woff'); }
+
+.header{
+    background-color: #445162;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: stretch;
+}
+
+.content{
+    height: 760px;
+}
+
+.contentContent1{
+    height: 344px;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: stretch;
+}
+.reViews{
+    background-color: #f5f5f5;
+}
+.reviewsTitle{
+    color: #445161;
+    font-family: "ArialMT";
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 36px;
+    text-align: center;
+    padding-top: 50px;
+}
+.site{
+    width: 1280px;
+    margin: auto;
+}
+.buyChange{
+    display: flex;
+    padding-bottom: 50px;
+}
+.bsH1{
+    text-align: center;
+    color: #ffffff;
+    font-family: "ArialMT";
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 30px;
+}
+.moneyBlock{
+    width: 296px;
+    height: 67px;
+    margin-left: 2px;
+    background-color: white;
+    margin-top: -20px;
+}
+.blockStandart{
+    width: 300px;
+    height: 306px;
+    background-color: #445162;
+    border-radius: 5px;
+    margin-top: 193px;
+    margin-left: 145px;
+
+}
+.buttonBuy{
+    width: 260px;
+    height: 40px;
+    background-color: #ffffff;
+    border-radius: 5px;
+    margin-left: 20px;
+}
+.olli{
+    color: #ffffff;
+    font-family: "ArialMT";
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+}
+.BBH11{
+    color: #445161;
+    font-family: "ArialMT";
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 18px;
+    text-transform: uppercase;
+}
+.contacts{
+    background-color: #445162;
+}
+.contacktsH1{
+    padding-top: 53px;
+    text-align: center;
+    color: #ffffff;
+    font-family: "ArialMT";
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 36px;
+}
+.money{
+    padding-top: 23px;
+    text-align: center;
+    color: #445162;
+    font-family: "ArialMT";
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 30px;
+}
+.ulYYY{
+    margin-left: 249px;
+}
+.yourName{
+    width: 500px;
+    height: 40px;
+    background-color: #ffffff;
+    border-radius: 10px;
+}
+.yourEmail{
+    width: 500px;
+    height: 40px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    margin-top: 22px
+}
+.yourMssg{
+    width: 500px;
+    height: 170px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    margin-top: 22px;
+}
+.ButtonSend{
+    width: 140px;
+    height: 40px;
+    background-color: #ffffff;
+    margin-left: 469px;
+    border-radius: 10px;
+    margin-bottom: 49px;
+}
+.ButtonSendH1{
+    color: #445162;
+    font-family: "ArialMT";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-transform: uppercase;
+    margin: auto;
+}
+.blockPremium{
+    width: 300px;
+    height: 404px;
+    background-color: #445162;
+    border-radius: 5px;
+    margin-left: 45px;
+    margin-top: 95px;
+}
+.blockLux{
+    width: 300px;
+    height: 499px;
+    background-color: #445162;
+    border-radius: 5px;
+    margin-left: 45px;
+}
+.buyIt{
+    padding-top: 50px;
+    text-align: center;
+    color: #445161;
+    font-family: "ArialMT";
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 36px;
+}
+.rLine1{
+    display: flex;
+    margin-left: 50px;
+}
+.rLine2{
+    display: flex;
+    margin-left: 50px;
+    margin-top: 24px;
+    padding-bottom: 51px;
+}
+.reviewsImage1{
+    width: 75px;
+    height: 75px;
+    background-color: #445161;
+    border-radius: 50%;
+}
+.reviewsImage2{
+    width: 75px;
+    height: 75px;
+    background-color: #445161;
+    border-radius: 50%;
+    margin-left: 32px;
+}
+.rTextImage{
+    background-image: url(png/bg_review.png);
+    background-repeat: no-repeat;
+    width: 483px;
+    height: 121px;
+    margin-left: 16px;
+}
+.rtextP{
+    color: #333333;
+    font-family: "ArialMT";
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18px;
+    margin-right: 20px;
+    margin-left: 27px;
+}
+.rTexth3{
+    color: #989898;
+    font-family: "ArialMT";
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18px;
+    margin-left: 27px;
+}
+.DignityAndPlusesProduct{
+    color: #445161;
+    font-family: "ArialMT";
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 36px;
+}
+.contentContent2{
+    height: 417px;
+    background-color: #f5f5f5;
+}
+
+.screenTitle{
+    text-align: center;
+    color: #445161;
+    font-family: "ArialMT";
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 36px;
+    margin-top: 51px;
+}
+.screenShotImage{
+    width: 200px;
+    height: 150px;
+    background-color: #445161;
+}
+.line2{
+    display: flex;
+    margin-left: 50px;
+    margin-top: 30px;
+    margin-bottom: 49px;
+}
+.line1{
+    display: flex;
+    margin-left: 50px;
+}
+.h1ScreenShot{
+    color: #445161;
+    font-family: "ArialMT";
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 30px;
+}
+.screenDisc{
+    width: 359px;
+    height: 108px;
+    color: #333333;
+    font-family: "ArialMT";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    margin-top: -10px
+}
+.screenShotText{
+    margin-left: 15px;
+    margin-top: -20px;
+}
+.pp1{
+    padding-left: 10px;
+    color: #333333;
+    font-family: "ArialMT";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+}
+.pp{
+    margin-top: 20px;
+    padding-left: 10px;
+    color: #333333;
+    font-family: "ArialMT";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+}
+.hhh123{
+    display: flex;
+}
+.pluses1{
+    width: 32px;
+    height: 32px;
+    margin-top: 20px;
+}
+.pluses{
+    width: 32px;
+    height: 32px;
+    display: flex;
+    margin-top: 50px;
+}
+.stroke{
+    display: flex;
+}
+.imgText11{
+    margin-left: 46px;
+    display: flex;
+    margin-top: 15px;
+
+}
+.imgText12{
+    margin-left: 46px;
+    display: flex;
+    margin-top: 30px;
+
+}
+.imgYYY{
+    width: 24px;
+    height: 26px;
+}
+.icons{
+    display: flex;
+    width: 240px;
+    height: 42px;
+    color: #ffffff;
+    font-family: Socialico;
+    font-size: 60px;
+    font-weight: 400;
+    line-height: 24px;
+    /* Text style for "l, figx" */
+    letter-spacing: 1.5px;
+    margin-left: 45px;
+    margin-top: 47px;
+}
+.stylePP112{
+    color: #ffffff;
+    font-family: "ArialMT";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    margin: auto;
+    padding-left: 5px;
+}
+.div1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: stretch; 
+}
+.div2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: stretch; 
+}
+.image1{
+    width: 469px;
+    height: 214px;
+    background-color: #ffffff;
+    margin-top: 50px;
+}
+
+.image2{
+    width: 430px;
+    height: 245px;
+    background-color: #445161;
+    margin-top: 50px;
+    margin-left: -130px;
+}
+
+.cC1{
+    display: flex;
+    flex-direction: column
+}
+
+.productName{
+    color: #ffffff;
+    font-family: "ArialMT";
+    font-size: 60px;
+    font-weight: 400;
+
+}
+
+.AboutYourProduct{
+color: #445161;
+font-family: "ArialMT";
+font-size: 30px;
+font-weight: 400;
+line-height: 36px;
+margin-top: 49px;
+}
+
+.contentHeader{
+    display: flex;
+    flex-direction: column;
+    
+    
+}
+.check1{
+    width: 25px;
+    height: 19px;
+    margin-top: 28px;
+}
+.check2{
+    margin-top: 16px;
+}
+.check3{
+    margin-top: 16px;
+}
+.check4{
+    margin-top: 18px;
+}
+
+.checkLorem{
+    margin-top: -40px;
+    display: flex;
+}
+
+.checks{
+    display: flex;
+    flex-direction: column;
+}
+
+.loremHeader{
+    padding-left: 10px;
+    color: #ffffff;
+    font-family: "Arial MT";
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 36px;
+}
