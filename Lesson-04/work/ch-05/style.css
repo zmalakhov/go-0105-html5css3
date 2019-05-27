@@ -1,0 +1,16 @@
+.video {
+    width: 600px;
+}
+
+.box {
+    position: relative;
+    width: 40%;
+    background-color: blue;
+}
+
+h3{
+    position: absolute;
+    top: 0;
+    left: 40%;
+    color: yellowgreen;
+}
