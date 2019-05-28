@@ -1,0 +1,22 @@
+html {
+  font-size: 10px;
+}
+
+body {
+  background-color: #ffffff;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  font-size: 10px;
+}
+
+header .product1 {
+  font-family: "Playfair Display", serif;
+}
+
+header .product2 {
+  font-family: "Roboto", sans-serif;
+}
+
+header .product3 {
+  font-family: "Hammersmith One", sans-serif;
+}
