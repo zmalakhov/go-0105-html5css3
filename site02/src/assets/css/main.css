@@ -9,14 +9,48 @@ body {
   font-size: 10px;
 }
 
-header .product1 {
-  font-family: "Playfair Display", serif;
+header {
+  background-image: -webkit-gradient(linear, left top, right top, from(#09052f), to(#311d5e));
+  background-image: linear-gradient(to right, #09052f 0%, #311d5e 100%);
 }
 
-header .product2 {
+header .navbar {
+  background-image: -webkit-gradient(linear, left top, right top, from(#09052f), to(#311d5e));
+  background-image: linear-gradient(to right, #09052f 0%, #311d5e 100%);
+}
+
+header .navbar-brand {
+  color: #00e0d0 !important;
   font-family: "Roboto", sans-serif;
+  font-size: 30px;
+  font-weight: 100;
 }
 
-header .product3 {
-  font-family: "Hammersmith One", sans-serif;
+header .navbar-nav {
+  font-family: "Roboto", sans-serif;
+  font-size: 13px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #00e0d0;
+  letter-spacing: 0.33px;
+}
+
+header .navbar-nav .active {
+  color: #00e0d0 !important;
+}
+
+header .navbar-light .navbar-toggler {
+  border: 1px solid #00e0d0;
+}
+
+header .navbar-light .navbar-toggler .navbar-toggler-icon {
+  color: #00e0d0;
+}
+
+header .navbar-light .navbar-nav .nav-link {
+  color: #ffffff;
+}
+
+header .navbar-light .navbar-nav .nav-link:hover {
+  color: #00e0d0;
 }
