@@ -414,3 +414,266 @@ header .carousel .carousel-control-prev-icon {
     background-image: none;
   }
 }
+
+.our-story-wrap .our-story {
+  padding: 7.0rem;
+}
+
+.our-story-wrap .our-story figure {
+  margin: 0;
+}
+
+.our-story-wrap .our-story figure .link {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.our-story-wrap .our-story figure .txt {
+  height: inherit;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  padding-left: 5.0rem;
+}
+
+.our-story-wrap .our-story figure .txt figcaption {
+  color: #413d4b;
+  font-family: "Playfair Display", serif;
+  font-size: 22px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 1.1px;
+}
+
+.our-story-wrap .our-story figure .txt p {
+  margin-top: 2.0rem;
+  font-family: "Roboto", sans-serif;
+  font-size: 1.4rem;
+  color: #989898;
+}
+
+@media all and (min-width: 992px) and (max-width: 1199px) {
+  .our-story-wrap .our-story {
+    padding: 6.0rem;
+  }
+
+  .our-story-wrap .our-story figure .link {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+  }
+
+  .our-story-wrap .our-story figure .link img {
+    width: 20.0rem;
+  }
+
+  .our-story-wrap .our-story figure .txt {
+    height: inherit;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    padding-left: 3.0rem;
+  }
+
+  .our-story-wrap .our-story figure .txt figcaption {
+    color: #413d4b;
+    font-family: "Playfair Display", serif;
+    font-size: 2.0vw;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1.1px;
+  }
+
+  .our-story-wrap .our-story figure .txt p {
+    margin-top: 2.0rem;
+    margin-bottom: 0;
+    font-family: "Roboto", sans-serif;
+    font-size: 1.3vw;
+    color: #989898;
+  }
+}
+
+@media all and (min-width: 768px) and (max-width: 991px) {
+  .our-story-wrap .our-story {
+    padding: 6.0vw;
+  }
+
+  .our-story-wrap .our-story figure .link {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+  }
+
+  .our-story-wrap .our-story figure .link img {
+    width: 25vw;
+  }
+
+  .our-story-wrap .our-story figure .txt {
+    height: inherit;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    padding-left: 3.0rem;
+  }
+
+  .our-story-wrap .our-story figure .txt figcaption {
+    color: #413d4b;
+    font-family: "Playfair Display", serif;
+    font-size: 2.0vw;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1.1px;
+  }
+
+  .our-story-wrap .our-story figure .txt p {
+    margin-top: 2.0rem;
+    margin-bottom: 0;
+    font-family: "Roboto", sans-serif;
+    font-size: 1.3vw;
+    color: #989898;
+  }
+}
+
+@media all and (min-width: 576px) and (max-width: 767px) {
+  .our-story-wrap .our-story {
+    padding: 6.0vw;
+  }
+
+  .our-story-wrap .our-story figure .link {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+  }
+
+  .our-story-wrap .our-story figure .link img {
+    width: 25vw;
+  }
+
+  .our-story-wrap .our-story figure .txt {
+    height: inherit;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    padding-left: 3.0rem;
+  }
+
+  .our-story-wrap .our-story figure .txt figcaption {
+    color: #413d4b;
+    font-family: "Playfair Display", serif;
+    font-size: 2.0vw;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1.1px;
+  }
+
+  .our-story-wrap .our-story figure .txt p {
+    margin-top: 2.0vw;
+    margin-bottom: 0;
+    font-family: "Roboto", sans-serif;
+    font-size: 1.3vw;
+    color: #989898;
+  }
+}
+
+@media all and (min-width: 320px) and (max-width: 575px) {
+  .our-story-wrap .our-story {
+    padding: 6.0vw;
+  }
+
+  .our-story-wrap .our-story figure .link {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+  }
+
+  .our-story-wrap .our-story figure .link img {
+    width: 25vw;
+  }
+
+  .our-story-wrap .our-story figure .txt {
+    height: inherit;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    padding-left: 2.0vw;
+  }
+
+  .our-story-wrap .our-story figure .txt figcaption {
+    color: #413d4b;
+    font-family: "Playfair Display", serif;
+    font-size: 2.0vw;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1.1px;
+  }
+
+  .our-story-wrap .our-story figure .txt p {
+    margin-top: 2.0vw;
+    margin-bottom: 0;
+    font-family: "Roboto", sans-serif;
+    font-size: 1.3vw;
+    color: #989898;
+  }
+}
+
+.video-story-wrap .video-story {
+  width: 100%;
+  height: 30.0rem;
+  background-color: #00e0d0;
+}
+.video-story-wrap .video-story {
+  width: 100%;
+  height: 30.0rem;
+  background-color: #00e0d0;
+}
