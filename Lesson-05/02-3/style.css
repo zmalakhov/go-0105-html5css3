@@ -1,0 +1,28 @@
+.block {
+    width: 150px;
+    height: 50px;
+    border: 1px solid #000;
+    
+}
+
+.content:hover .block{
+    margin-left: 300px;
+}
+
+.block-1 {
+    transition: margin-left 2s ease-in-out;
+}
+
+.block-2 {
+    transition: margin-left 2s ease;
+}
+
+.block-3 {
+    transition: margin-left 2s ease-in;
+}
+
+.block-4 {
+    transition: margin-left 2s ease-out;
+}
+
+
