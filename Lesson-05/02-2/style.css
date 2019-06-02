@@ -1,0 +1,12 @@
+.block {
+    width: 350px;
+    height: 350px;
+    border: 1px solid #000;
+    background-color: forestgreen;
+    transition: all 1s;
+}
+
+.block:hover {
+    background-color: darkred;
+    color: #ffffff;
+}
