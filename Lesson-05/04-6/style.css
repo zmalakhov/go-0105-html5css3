@@ -1,0 +1,23 @@
+.content {
+    display: flex;
+    margin-left: 100px;
+    margin-top: 100px;
+    position: relative;
+}
+
+.item{
+    width: 120px;
+    height: 69px;
+    /* border: 1px solid #000; */
+    background-color: green;
+    transition: transform 1s;
+    position: absolute;
+}
+
+.content:hover .item-2 {
+    transform: rotate(60deg);
+}
+
+.content:hover .item-3 {
+    transform: rotate(-60deg);
+}
