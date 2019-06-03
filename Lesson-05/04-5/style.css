@@ -1,0 +1,16 @@
+.content {
+    display: flex;
+    margin-left: 100px;
+    margin-top: 100px;
+}
+
+.item{
+    width: 120px;
+    height: 40px;
+    border: 1px solid #000;
+    transition: transform 1s;
+}
+
+.item-1 {
+    transform: translateX(-50px) skewX(45deg) rotate(45deg);
+}
