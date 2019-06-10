@@ -1,22 +1,24 @@
 
 .content{
     display: grid;
-    /* grid-template-columns: repeat(4, 200px);
-    grid-template-rows: repeat(2, 300px); */
+    grid-template-columns: repeat(4, 100px);
+    grid-template-rows: repeat(2, 200px);
 
-    /* grid-template-columns: repeat(2, 200px) 40px 30%;
-    grid-template-rows: repeat(2, 300px); */
+    grid-column-gap: 30px;
+    grid-row-gap: 50px;
 
-    /* grid-template-columns: repeat(2, 200px) 40px auto;
-    grid-template-rows: repeat(2, 300px); */
+    justify-items: center;
+    align-items: center;
 
-    /* grid-template-columns: 1fr 2fr 1fr 3fr; */
-    grid-template-columns: repeat(4, 1fr);
-    grid-template-rows: repeat(2, 300px);
+    justify-content: center;
+    
 
 }
 
 .item {
+    width: 50px;
+    height: 50px;
+    background-color: darkblue;
     border: 1px solid #000;
 }
 
