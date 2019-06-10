@@ -1,0 +1,14 @@
+
+.content{
+    display: grid;
+    grid-template-columns: 300px 200px 300px;
+    grid-template-rows: 100px 500px;
+}
+
+.item {
+    border: 1px solid #000;
+}
+
+
+
+
