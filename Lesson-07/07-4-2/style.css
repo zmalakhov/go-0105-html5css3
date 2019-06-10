@@ -1,0 +1,24 @@
+
+.content{
+    display: grid;
+    grid-template-columns: 65% 32%;
+    grid-template-rows: repeat(2, 200px);
+
+    grid-column-gap: 3%;
+    grid-row-gap: 40px;
+
+
+
+}
+
+.item {
+    border: 1px solid #000;
+}
+
+.item-1 {
+    grid-row: 1 / 3;
+}
+
+
+
+
