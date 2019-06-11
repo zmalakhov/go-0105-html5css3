@@ -1,5 +1,62 @@
 footer
-  height: 500px
-  background-color: #311d5e
+  background: url("../images/header/slider-img-2.png") 100% 100% no-repeat
+  background-size: cover
   color: #ffffff
-  border: 1px solid #ffffff
+  .footer-top
+    display: grid
+    grid-template-columns: 1fr 1fr 1fr
+    grid-template-rows: auto
+    grid-column-gap: 30px
+    padding-top: 5.0rem
+    .title
+      height: 5.0rem
+      color: #ffffff
+      font-family: $font-playfair
+      font-size: 1.5rem
+      font-weight: 700
+      text-transform: uppercase
+      display: flex
+      justify-content: flex-start
+      align-items: center
+    .logo
+      display: flex
+      flex-direction: column
+      justify-content: space-between
+      a
+        color: #00e0d0
+        img
+          width: 30px
+          margin-right: 2.0rem
+    .studio
+      display: flex
+      flex-direction: column
+      justify-content: space-between
+      .txt
+        //padding-top: 1.0rem
+        i
+          margin-right: 1.0rem
+    .stay
+      display: flex
+      flex-direction: column
+      justify-content: space-between
+      form
+        .form-group
+          display: flex
+          input
+            background-color: transparent
+            margin-right: 1.0rem
+          button
+            background-color: #eeeeee
+            color: black
+            font-size: 1.0rem
+      .txt
+        //padding-top: 1.0rem
+        i
+          margin-right: 1.0rem
+  .footer-bottom
+    padding-top: 5.0rem
+    padding-bottom: 5.0rem
+    display: flex
+    justify-content: center
+
+//media

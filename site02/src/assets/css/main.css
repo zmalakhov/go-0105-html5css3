@@ -2150,10 +2150,119 @@ header .carousel .carousel-control-prev-icon {
 }
 
 footer {
-  height: 500px;
-  background-color: #311d5e;
+  background: url("../images/header/slider-img-2.png") 100% 100% no-repeat;
+  background-size: cover;
   color: #ffffff;
-  border: 1px solid #ffffff;
+}
+
+footer .footer-top {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: auto;
+  grid-column-gap: 30px;
+  padding-top: 5.0rem;
+}
+
+footer .footer-top .title {
+  height: 5.0rem;
+  color: #ffffff;
+  font-family: "Playfair Display", serif;
+  font-size: 1.5rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+footer .footer-top .logo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+
+footer .footer-top .logo a {
+  color: #00e0d0;
+}
+
+footer .footer-top .logo a img {
+  width: 30px;
+  margin-right: 2.0rem;
+}
+
+footer .footer-top .studio {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+
+footer .footer-top .studio .txt i {
+  margin-right: 1.0rem;
+}
+
+footer .footer-top .stay {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+
+footer .footer-top .stay form .form-group {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+footer .footer-top .stay form .form-group input {
+  background-color: transparent;
+  margin-right: 1.0rem;
+}
+
+footer .footer-top .stay form .form-group button {
+  background-color: #eeeeee;
+  color: black;
+  font-size: 1.0rem;
+}
+
+footer .footer-top .stay .txt i {
+  margin-right: 1.0rem;
+}
+
+footer .footer-bottom {
+  padding-top: 5.0rem;
+  padding-bottom: 5.0rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
 }
 .video-story-wrap .video-story {
   width: 100%;
