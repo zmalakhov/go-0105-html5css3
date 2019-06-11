@@ -1859,14 +1859,297 @@ header .carousel .carousel-control-prev-icon {
   }
 }
 
-footer {
-  height: 500px;
-  background-color: #311d5e;
-  color: #ffffff;
-  border: 1px solid #ffffff;
+.clients-wrap .clients {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: auto;
+  grid-column-gap: 30px;
+  padding-bottom: 4.0rem;
 }
 
-.clients {
+.clients-wrap .clients .title {
+  color: #413d4b;
+  font-family: "Playfair Display", serif;
+  font-size: 22px;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin-bottom: 3.0rem;
+}
+
+.clients-wrap .clients .good-news form input {
+  padding-top: 1.0rem;
+  padding-bottom: 1.0rem;
+}
+
+.clients-wrap .clients .good-news form textarea {
+  width: 100%;
+  height: 20.0rem;
+}
+
+.clients-wrap .clients .good-news form button {
+  width: 20%;
+  background-color: #ffffff;
+  color: #00e0d0;
+  font-family: "Hammersmith One", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  text-transform: uppercase;
+  text-decoration: none;
+  border: 1px solid #00e0d0;
+  padding: 10px 15px;
+  margin-top: 1.0rem;
+  margin-bottom: 1.0rem;
+  -webkit-transition: border 2s, -webkit-transform 1s;
+  transition: border 2s, -webkit-transform 1s;
+  transition: border 2s, transform 1s;
+  transition: border 2s, transform 1s, -webkit-transform 1s;
+}
+
+.clients-wrap .clients .good-news form button:hover {
+  color: #00e0d0;
+  border: 1px solid #00e0d0;
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+}
+
+.clients-wrap .clients .happy-client .happies {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: auto;
+  grid-column-gap: 30px;
+  justify-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.clients-wrap .clients .happy-client .happies .happy img {
+  width: 100%;
+}
+
+@media all and (min-width: 992px) and (max-width: 1199px) {
+  .clients-wrap .clients {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+    grid-column-gap: 30px;
+    padding-bottom: 4.0rem;
+  }
+
+  .clients-wrap .clients .title {
+    color: #413d4b;
+    font-family: "Playfair Display", serif;
+    font-size: 22px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-bottom: 3.0rem;
+  }
+
+  .clients-wrap .clients .good-news form input {
+    padding-top: 1.0rem;
+    padding-bottom: 1.0rem;
+  }
+
+  .clients-wrap .clients .good-news form textarea {
+    width: 100%;
+    height: 20.0rem;
+  }
+
+  .clients-wrap .clients .good-news form button {
+    width: 20%;
+    background-color: #ffffff;
+    color: #00e0d0;
+    font-family: "Hammersmith One", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    text-transform: uppercase;
+    text-decoration: none;
+    border: 1px solid #00e0d0;
+    padding: 10px 15px;
+    margin-top: 1.0rem;
+    margin-bottom: 1.0rem;
+    -webkit-transition: border 2s, -webkit-transform 1s;
+    transition: border 2s, -webkit-transform 1s;
+    transition: border 2s, transform 1s;
+    transition: border 2s, transform 1s, -webkit-transform 1s;
+  }
+
+  .clients-wrap .clients .good-news form button:hover {
+    color: #00e0d0;
+    border: 1px solid #00e0d0;
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+  }
+
+  .clients-wrap .clients .happy-client .happies {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto;
+    grid-column-gap: 30px;
+    justify-items: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+  }
+
+  .clients-wrap .clients .happy-client .happies .happy img {
+    width: 100%;
+  }
+}
+
+@media all and (min-width: 768px) and (max-width: 991px) {
+  .clients-wrap .clients {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+    grid-column-gap: 30px;
+    padding-bottom: 4.0rem;
+  }
+
+  .clients-wrap .clients .title {
+    color: #413d4b;
+    font-family: "Playfair Display", serif;
+    font-size: 22px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-bottom: 3.0rem;
+  }
+
+  .clients-wrap .clients .good-news form input {
+    padding-top: 1.0rem;
+    padding-bottom: 1.0rem;
+  }
+
+  .clients-wrap .clients .good-news form textarea {
+    width: 100%;
+    height: 10.0rem;
+  }
+
+  .clients-wrap .clients .good-news form button {
+    width: 30%;
+    background-color: #ffffff;
+    color: #00e0d0;
+    font-family: "Hammersmith One", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    text-transform: uppercase;
+    text-decoration: none;
+    border: 1px solid #00e0d0;
+    padding: 10px 15px;
+    margin-top: 1.0rem;
+    margin-bottom: 1.0rem;
+    -webkit-transition: border 2s, -webkit-transform 1s;
+    transition: border 2s, -webkit-transform 1s;
+    transition: border 2s, transform 1s;
+    transition: border 2s, transform 1s, -webkit-transform 1s;
+  }
+
+  .clients-wrap .clients .good-news form button:hover {
+    color: #00e0d0;
+    border: 1px solid #00e0d0;
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+  }
+
+  .clients-wrap .clients .happy-client .happies {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto;
+    grid-column-gap: 30px;
+    justify-items: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+  }
+
+  .clients-wrap .clients .happy-client .happies .happy img {
+    width: 100%;
+  }
+}
+
+@media all and (min-width: 320px) and (max-width: 767px) {
+  .clients-wrap .clients {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+    grid-column-gap: 30px;
+    padding-bottom: 4.0rem;
+  }
+
+  .clients-wrap .clients .title {
+    color: #413d4b;
+    font-family: "Playfair Display", serif;
+    font-size: 22px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-bottom: 3.0rem;
+  }
+
+  .clients-wrap .clients .good-news form input {
+    padding-top: 1.0rem;
+    padding-bottom: 1.0rem;
+  }
+
+  .clients-wrap .clients .good-news form textarea {
+    width: 100%;
+    height: 10.0rem;
+  }
+
+  .clients-wrap .clients .good-news form button {
+    width: 30%;
+    background-color: #ffffff;
+    color: #00e0d0;
+    font-family: "Hammersmith One", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    text-transform: uppercase;
+    text-decoration: none;
+    border: 1px solid #00e0d0;
+    padding: 10px 15px;
+    margin-top: 1.0rem;
+    margin-bottom: 1.0rem;
+    -webkit-transition: border 2s, -webkit-transform 1s;
+    transition: border 2s, -webkit-transform 1s;
+    transition: border 2s, transform 1s;
+    transition: border 2s, transform 1s, -webkit-transform 1s;
+  }
+
+  .clients-wrap .clients .good-news form button:hover {
+    color: #00e0d0;
+    border: 1px solid #00e0d0;
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+  }
+
+  .clients-wrap .clients .happy-client .happies {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto;
+    grid-column-gap: 30px;
+    justify-items: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+  }
+
+  .clients-wrap .clients .happy-client .happies .happy img {
+    width: 100%;
+  }
+}
+
+footer {
   height: 500px;
   background-color: #311d5e;
   color: #ffffff;
